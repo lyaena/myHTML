@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+body {
+    background-color:white;
+}
+
+h1{
+    color:green;
+    background-color: red;
+    border: 5px solid purple;
+}
+
+h1{
+    color:purple;
+    background-color: red;
+    border: 5px solid purple;
+}
+
+p{
+    color:wheat;
+    font-size: 25px;
+}
+.footer img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+}
+
+.blog-post img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   
+}
